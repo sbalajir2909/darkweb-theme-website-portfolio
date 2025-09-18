@@ -142,11 +142,11 @@ function ExhibitCard({
   i: number;
   onOpen: (c: Cert) => void;
 }) {
-  const rightSide = c.status === "ONGOING"
-    ? <span className="text-[10px] font-mono text-yellow-300/90">ONGOING</span>
-    : c.issued
-      ? <span className="text-[10px] font-mono text-red-300/90">{new Date(c.issued).toLocaleDateString()}</span>
-      : null;
+  // const rightSide = c.status === "ONGOING"
+  //   ? <span className="text-[10px] font-mono text-yellow-300/90">ONGOING</span>
+  //   : c.issued
+  //     ? <span className="text-[10px] font-mono text-red-300/90">{new Date(c.issued).toLocaleDateString()}</span>
+  //     : null;
 
   return (
     <motion.article

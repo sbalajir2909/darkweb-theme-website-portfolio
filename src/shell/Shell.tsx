@@ -1,4 +1,5 @@
-import { ReactNode, useEffect, useState, Suspense, lazy } from "react";
+import type { ReactNode } from "react";
+import { useEffect, useState, Suspense, lazy } from "react";
 import { Link, useLocation } from "react-router-dom";
 import LoginGate from "../components/LoginGate";
 import AnimatedLink from "../components/AnimatedLink";

@@ -1,5 +1,3 @@
-import React from "react";
-
 /**
  * Floating Bitcoin medallion (always visible).
  * - Has its own z-index and size box
