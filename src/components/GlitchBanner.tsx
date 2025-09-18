@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 type Props = {
-  phrases: string[];
+  phrases: readonly string[];
   prefix?: string;        // emoji like 🔴 🛰️
   intervalMs?: number;    // how often to rotate
   speed?: number;         // animation timing multiplier (1 = default)

@@ -202,7 +202,7 @@ function EduCard({ c, delay }: { c: Campus; delay: number }) {
       {/* readable, slower banner */}
       <div className="px-4 pt-3">
         <GlitchBanner
-          phrases={LINES[c.key] ?? ["Transmission unstable"]}
+          phrases={LINES[c.key] ?? ["Transmission unstable"] as readonly string[]}
           prefix={prefix}
           intervalMs={4200}
         />
